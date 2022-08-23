@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_main_menu_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:title="Procurar"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="100"/>
+
+    <item android:id="@+id/action_main_menu_add"
+        android:title="Nova Tarefa"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_main_menu_display_all_completed"
+        android:title="Exibir todas as Tarefas concluidas"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_main_menu_display_all_deleted"
+        android:title="Exibir todas as tarefas excluidas"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_main_menu_delete_all"
+        android:title="Excluir todas as tarefas"
+        app:showAsAction="never"/>
+</menu>
